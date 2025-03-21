@@ -43,12 +43,10 @@ namespace MiniAmazonClone.Controllers
 
                 decimal totalAmount = 0;
 
-                // Loop through OrderItems to associate products and calculate the total
                 foreach (var item in order.OrderItems)
                 {
                     var product = _context.Products.FirstOrDefault(p => p.ProductId == item.ProductId);
 
-                    // If the product is not found, return a bad request
                     if (product == null)
                     {
                         return BadRequest($"Product with ID {item.ProductId} not found.");
@@ -56,32 +54,25 @@ namespace MiniAmazonClone.Controllers
 
                     item.Price = product.Price;
 
-                    // Calculate the total amount for the order
                     totalAmount += item.Price * item.Quantity;
 
-                    // Update the product stock 
                     product.Stock -= item.Quantity;
 
-                    // Ensure product stock doesn't go negative
                     if (product.Stock < 0)
                     {
                         return BadRequest($"Not enough stock for product: {product.Name}");
                     }
                 }
 
-                // Set the TotalAmount for the order
                 order.TotalAmount = totalAmount;
 
-                // Add the order to the database
                 _context.Orders.Add(order);
                 _context.SaveChanges();
 
-                // Return a success response
                 return Ok("Order placed successfully.");
             }
             catch (Exception ex)
             {
-                // Log any exception
                 Console.WriteLine($"Error creating order: {ex.Message}");
                 return StatusCode(500, "An error occurred while creating the order.");
             }
@@ -127,6 +118,26 @@ namespace MiniAmazonClone.Controllers
                 .ToList();
 
             return Ok(orders);
+        }
+
+
+        [HttpPost("refund/{id}")]
+        [Authorize(Policy = "CanRefundOrders")]
+        public IActionResult RefundOrder(int id)
+        {
+            var order = _context.Orders
+                .Include(o => o.OrderItems)
+                .FirstOrDefault(o => o.OrderId == id);
+
+            if (order == null)
+            {
+                return NotFound("Order not found.");
+            }
+
+            order.Status = "Refunded";
+            _context.SaveChanges();
+
+            return Ok("Order refunded successfully.");
         }
     }
 }

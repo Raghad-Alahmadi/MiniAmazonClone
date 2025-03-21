@@ -35,11 +35,14 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
-// Define the CanViewOrders policy
+// Define policies
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("CanViewOrders", policy =>
         policy.RequireRole("Admin"));
+    options.AddPolicy("CanRefundOrders", policy =>
+        policy.RequireRole("Admin")
+              .RequireClaim("CanRefundOrders"));
 });
 
 // Register Dapper Repositories

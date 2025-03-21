@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiniAmazonClone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9147c0153b15027521db76f70972c5d73a20ab26")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1964cda56fe3dd37ffd69f4eef636cf9a011575")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiniAmazonClone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiniAmazonClone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

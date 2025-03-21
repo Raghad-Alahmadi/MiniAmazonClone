@@ -23,12 +23,17 @@ namespace MiniAmazonClone.Services
         {
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_secret));
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var claims = new[]
+            var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.NameIdentifier, user.UserId.ToString()),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Role, user.Role)
             };
+
+            if (user.Role == "Admin")
+            {
+                claims.Add(new Claim("CanRefundOrders", "true"));
+            }
 
             var token = new JwtSecurityToken(
                 _issuer,

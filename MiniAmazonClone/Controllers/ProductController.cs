@@ -46,5 +46,32 @@ namespace MiniAmazonClone.Controllers
 
             return Ok(product);
         }
+
+        [HttpPut("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] Product product)
+        {
+            if (id != product.ProductId)
+            {
+                return BadRequest("Product ID mismatch.");
+            }
+
+            var existingProduct = await _context.Products.FindAsync(id);
+            if (existingProduct == null)
+            {
+                return NotFound("Product not found.");
+            }
+
+            existingProduct.Name = product.Name;
+            existingProduct.Description = product.Description;
+            existingProduct.Price = product.Price;
+            existingProduct.Stock = product.Stock;
+            existingProduct.CreatedBy = product.CreatedBy;
+
+            _context.Products.Update(existingProduct);
+            await _context.SaveChangesAsync();
+
+            return Ok("Product updated successfully.");
+        }
     }
 }
