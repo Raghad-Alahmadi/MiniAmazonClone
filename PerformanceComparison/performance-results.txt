@@ -1,0 +1,14 @@
+PERFORMANCE COMPARISON RESULTS - 3/25/2025 2:23:27 AM
+=======================================
+EF Core execution time: 1052.42 ms
+Dapper execution time: 188.49 ms
+Performance difference: 5.58x
+
+Performance Analysis:
+1. Dapper is typically faster because it's a lightweight micro-ORM with minimal overhead
+2. EF Core provides more features but at the cost of performance
+3. The difference becomes more pronounced with larger datasets
+
+When to use each:
+- Use EF Core for: Complex domain models, frequent updates, when productivity is more important than raw speed
+- Use Dapper for: Read-heavy workloads, performance-critical operations, large dataset retrieval
