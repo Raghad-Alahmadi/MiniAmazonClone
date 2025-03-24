@@ -16,7 +16,10 @@ namespace MiniAmazonClone.Repositories
             _configuration = configuration;
             _connectionString = _configuration.GetConnectionString("DefaultConnection");
         }
-
+        protected virtual IDbConnection CreateConnection()
+        {
+            return new SqlConnection(_connectionString);
+        }
         public async Task<IEnumerable<Order>> GetCustomerOrders(int userId)
         {
             using (IDbConnection db = new SqlConnection(_connectionString))

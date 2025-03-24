@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|c:\\users\\ahuevo nice\\source\\repos\\miniamazonclone\\miniamazonclone\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|solutionrelative:miniamazonclone\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|c:\\users\\ahuevo nice\\source\\repos\\miniamazonclone\\miniamazonclone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|solutionrelative:miniamazonclone\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|c:\\users\\ahuevo nice\\source\\repos\\miniamazonclone\\miniamazonclone\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|solutionrelative:miniamazonclone\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|c:\\users\\ahuevo nice\\source\\repos\\miniamazonclone\\miniamazonclone\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|solutionrelative:miniamazonclone\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{44468A0B-0E81-4233-9BC5-46E1791E52BA}|MiniAmazonClone\\MiniAmazonClone.csproj|c:\\users\\ahuevo nice\\source\\repos\\miniamazonclone\\miniamazonclone\\migrations\\20250321171928_annotations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,11 +117,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "MiniAmazonClone\\Repositories\\ProductRepository.cs",
@@ -129,12 +129,11 @@
               "RelativeToolTip": "MiniAmazonClone\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T16:50:25.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T16:50:25.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "MiniAmazonClone\\Controllers\\OrderController.cs",
@@ -142,12 +141,11 @@
               "RelativeToolTip": "MiniAmazonClone\\Controllers\\OrderController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:41:01.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T12:41:01.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "MiniAmazonClone\\Controllers\\ProductController.cs",
@@ -155,38 +153,37 @@
               "RelativeToolTip": "MiniAmazonClone\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:40:40.253Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T12:40:40.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "MiniAmazonClone\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Controllers\\AuthController.cs",
               "RelativeToolTip": "MiniAmazonClone\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA1wDoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwBsAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T12:39:04.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Program.cs",
               "RelativeDocumentMoniker": "MiniAmazonClone\\Program.cs",
               "ToolTip": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Program.cs",
               "RelativeToolTip": "MiniAmazonClone\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T12:29:53.186Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "JwtService.cs",
               "DocumentMoniker": "C:\\Users\\ahuevo nice\\source\\repos\\MiniAmazonClone\\MiniAmazonClone\\Services\\JwtService.cs",
               "RelativeDocumentMoniker": "MiniAmazonClone\\Services\\JwtService.cs",
@@ -194,8 +191,7 @@
               "RelativeToolTip": "MiniAmazonClone\\Services\\JwtService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T12:47:20.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T12:47:20.251Z"
             },
             {
               "$type": "Document",
@@ -207,8 +203,7 @@
               "RelativeToolTip": "MiniAmazonClone\\Migrations\\20250321171928_Annotations.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T17:19:28.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-21T17:19:28.802Z"
             },
             {
               "$type": "Document",

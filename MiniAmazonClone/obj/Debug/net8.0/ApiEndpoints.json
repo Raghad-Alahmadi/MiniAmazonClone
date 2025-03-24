@@ -35,7 +35,7 @@
     "Parameters": [
       {
         "Name": "user",
-        "Type": "MiniAmazonClone.Models.User",
+        "Type": "User",
         "IsRequired": true
       }
     ],
@@ -94,6 +94,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "MiniAmazonClone.Controllers.OrderController",
+    "Method": "RefundOrder",
+    "RelativePath": "api/orders/refund/{id}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MiniAmazonClone.Controllers.ProductController",
     "Method": "AddProduct",
     "RelativePath": "api/products",
@@ -130,6 +146,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniAmazonClone.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "product",
+        "Type": "Product",
         "IsRequired": true
       }
     ],
