@@ -58,9 +58,17 @@
               "target": "Package",
               "version": "[2.1.66, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.11.1, )"
+            },
+            "MockQueryable.Moq": {
+              "target": "Package",
+              "version": "[7.0.3, )"
             },
             "Moq.Dapper": {
               "target": "Package",

@@ -158,3 +158,9 @@ C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\obj\Debu
 C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\obj\Debug\net9.0\MiniAmazonClone.Tests.pdb
 C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\obj\Debug\net9.0\MiniAmazonClone.Tests.genruntimeconfig.cache
 C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\obj\Debug\net9.0\ref\MiniAmazonClone.Tests.dll
+C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\bin\Debug\net9.0\MockQueryable.Core.dll
+C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\bin\Debug\net9.0\MockQueryable.EntityFrameworkCore.dll
+C:\Users\ahuevo nice\source\repos\MiniAmazonClone\MiniAmazonClone.Tests\bin\Debug\net9.0\MockQueryable.Moq.dll
